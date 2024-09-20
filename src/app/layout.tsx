@@ -34,6 +34,8 @@ export default function RootLayout({
           <li><Link href="/site-2/two-components">Site 2 - two components</Link></li>
           <li><Link href="/site-1/serverHtml">Site 1 - useServerInsertedHTML</Link></li>
           <li><Link href="/site-2/serverHtml">Site 2 - useServerInsertedHTML</Link></li>
+          <li><Link href="/site-1/dynamic">Site 1 - next/dynamic</Link></li>
+          <li><Link href="/site-2/dynamic">Site 2 - next/dynamic</Link></li>
         </ul>
         {children}
       </body>
